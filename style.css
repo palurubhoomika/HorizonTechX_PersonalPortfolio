@@ -28,7 +28,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-image: url("C:/Images/image4.jpg");
+        background-image: url("images/image4.jpg");
     }
     
     .image img {
@@ -73,7 +73,7 @@
     }
     
     body {
-        background-image: url("C:/Images/image4.jpg");
+        background-image: url("images/image4.jpg");
     }
     
     #education h2 {
@@ -91,7 +91,6 @@
     }
     
     #projects {
-        background-image: url("C:/Images/image4.jpg");
         color: rgb(219, 216, 216);
         display: flex;
         flex-direction: column;
