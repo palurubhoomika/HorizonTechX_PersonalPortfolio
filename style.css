@@ -1,0 +1,179 @@
+    * {
+        margin: 0;
+        font-family: Arial;
+    }
+    
+    .Main {
+        background-color: rgb(103, 78, 46);
+        color: rgb(197, 200, 28);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 35px;
+        font-size: 20px;
+        border: 8px;
+    }
+    
+    #Menu a {
+        color: white;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .Home {
+        color: white;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-image: url("C:/Images/image4.jpg");
+    }
+    
+    .image img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: -60px;
+    }
+    
+    .logo img {
+        height: 40px;
+        margin: 10px;
+        padding-bottom: 40px;
+    }
+    
+    .content h3 {
+        padding-bottom: 35px;
+        color: rgb(88, 188, 188);
+    }
+    
+    .content h2 {
+        padding-bottom: 15px;
+        color: rgb(88, 188, 188);
+    }
+    
+    .content p {
+        padding-bottom: 29px;
+    }
+    
+    .about {
+        color: aliceblue;
+    }
+    
+    .about h2,
+    p {
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .about h2 {
+        color: rgb(6, 183, 247);
+    }
+    
+    body {
+        background-image: url("C:/Images/image4.jpg");
+    }
+    
+    #education h2 {
+        color: rgb(6, 183, 247);
+    }
+    
+    .skills {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    #education {
+        text-align: center;
+        color: whitesmoke;
+    }
+    
+    #projects {
+        background-image: url("C:/Images/image4.jpg");
+        color: rgb(219, 216, 216);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    #projects h2 {
+        padding-top: 35px;
+        padding-bottom: 5px;
+        text-align: center;
+        color: yellow;
+    }
+    
+    #projects h4 {
+        padding-top: 20px;
+        color: rgb(6, 238, 246);
+    }
+    
+    #internships {
+        color: whitesmoke;
+        padding-top: 25px;
+    }
+    
+    #internships h3 {
+        text-align: center;
+        padding-top: 10px;
+        color: rgb(63, 194, 215);
+    }
+    
+    #internships h2 {
+        text-align: center;
+        color: rgb(232, 236, 10);
+    }
+    
+    #internships h4 {
+        text-align: center;
+        padding-top: 10px;
+        color: rgb(218, 110, 180);
+    }
+    
+    .contact {
+        width: 80%;
+        margin: 50px auto;
+        text-align: center;
+        color: white;
+    }
+    
+    .contact h2 {
+        margin-bottom: 10px;
+        color: aqua;
+        padding-bottom: 30px;
+    }
+    
+    .contact-card,
+    .contact-info {
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 10px;
+        border: 1px solid rgba(17, 171, 195, 0.3);
+        backdrop-filter: blur(5px);
+        margin-top: 10px;
+    }
+    
+    .contact-info h3 {
+        color: blueviolet;
+    }
+    
+    .thanks {
+        color: deeppink;
+    }
+    
+    .next-btn {
+        text-align: right;
+        margin-top: 10px;
+    }
+    
+    .page-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
