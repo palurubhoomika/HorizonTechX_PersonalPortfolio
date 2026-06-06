@@ -3,6 +3,10 @@
         font-family: Arial;
     }
     
+    body {
+        background-image: url("images/image4.jpg");
+    }
+    
     .Main {
         background-color: rgb(103, 78, 46);
         color: rgb(197, 200, 28);
@@ -28,7 +32,6 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        background-image: url("images/image4.jpg");
     }
     
     .image img {
@@ -70,10 +73,6 @@
     
     .about h2 {
         color: rgb(6, 183, 247);
-    }
-    
-    body {
-        background-image: url("images/image4.jpg");
     }
     
     #education h2 {
